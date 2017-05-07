@@ -4,12 +4,12 @@ require './lib/insertion_sort'
 require "pry"
 
 # I found it extremely hard to write tests to properly develop this
-# due to the fact that you don't pass the arguement into the initialize
+# due to the fact that you don't pass the argument into the initialize
 # method. I feel like I got "pretty hacky" on this one. Methods have
-# too much responsibility. I feel I could have written it differently it
+# too much responsibility. I feel I could have written it differently if
 # we had passed it into initialize, but this one left me feeling
-# "mentally broken". Eventually I broke down and stopped using TDD
-# becasue I didn't know how to properly use it in this case.
+# "mentally broken". Eventually I broke down and stopped using TDD properly
+# becasue I didn't know how to properly use it in this case. 
 
 class InsertionSortTest < Minitest::Test
 
